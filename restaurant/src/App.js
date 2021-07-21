@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { Menu } from './Components/index'
+import { Menu, Header } from './Components/index'
 import { Fragment } from 'react'
+
 
 function App() {
   return (
     <Fragment>
+      <Header />
       <Menu />
     </Fragment>
   );
